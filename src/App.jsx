@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 /* using ES6/7 : ARrow functions
 
 export default () => <h1>Hello from Component</h1>
@@ -20,17 +22,22 @@ function Food(props) {
 
 // using ES6/7 : Destructuring
 function Task({ title, completed }) {
-    console.log(title, completed);
+    // console.log(title, completed);
     
     return (
         <>
         <label>
-            <input type={"checkbox"} name="task" checked={completed}/>
+            <input type="checkbox" name="task" checked={completed}/>
                 {title}
             </label>
             <br />
         </>
     )
+}
+
+Task.propTypes = {
+    title: PropTypes.string.isRequired,
+    completed: PropTypes.bool.isRequired
 }
 
 // Dynamic Component Data   (Probably from an API)

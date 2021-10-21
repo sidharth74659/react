@@ -50,24 +50,40 @@
 
 ### Timeline
 
-- [x] intialised a app using [create-react-app](https://github.com/facebook/create-react-app#create-react-app--) and <br>nested into the app and <br>run server
+- [x] setup react-app
 
-    ```
-    npx create-react-app <app-name>
-    cd <app-name>
-    npm start
-    ```
+  - [x] intialised a app using [create-react-app](https://github.com/facebook/create-react-app#create-react-app--)  
+         `npx create-react-app <app-name>`
+  - [x] nested into the app  
+         `cd <app-name>`
+  - [x] run server  
+         `npm start`
 
 - [x] Removed Clutter
+- [x] Understood JSX
 - [x] Made first component
-- [x] Used Props 
+- [x] Used Props
   - [x] passed props using static way (hard-coded)
-  - [x] passed props using dynamic way (probably from API using map)
+  - [x] passed props using dynamic way (probably from API using `map`)
 - [x] Used keys and understood it's <a href="https://reactjs.org/docs/lists-and-keys.html#keys" title="Keys help React identify which items have changed, are added, or are removed">importance</a>
+- [x] <a href="https://reactjs.org/docs/typechecking-with-proptypes.html" title="PropTypes exports a range of validators that can be used to make sure the data you receive is valid">PropTypes</a>
 
->
+  - [x] installed :  
+         `npm i prop-types`
+  - [x] imported :  
+         `import PropTypes from 'prop-types'`
+  - [x] used :
 
+  ```js
+  <Component-name>.propTypes = {
+    //syntax :
+    <prop-name>: PropTypes.<prop-type>.(?isRequired),
 
+    //example :
+    title: PropTypes.string.isRequired,
+    completed: PropTypes.bool.isRequired
+  }
+  ```
 
 # Getting Started with Create React App
 
