@@ -1,8 +1,8 @@
 ### Helpful Links
 
-> I didn't mention index.js in any script tag in index.html. But how it is referencing the root div element in index.html <br>
-> [Answer One](https://stackoverflow.com/questions/42438171/wheres-the-connection-between-index-html-and-index-js-in-a-create-react-app-app)<br>
-> [Answer Two](https://stackoverflow.com/questions/41738421/how-react-js-index-js-file-contacting-index-html-for-id-references)
+> [Add react to a website](https://reactjs.org/docs/add-react-to-a-website.html)
+
+> I didn't mention index.js in any script tag in index.html. But how it is referencing the root div element in index.html <br> > [Answer One](https://stackoverflow.com/questions/42438171/wheres-the-connection-between-index-html-and-index-js-in-a-create-react-app-app)<br> > [Answer Two](https://stackoverflow.com/questions/41738421/how-react-js-index-js-file-contacting-index-html-for-id-references)
 
 > Can i use arrow-functions to export.<br>
 > The answer is Yes, and you can do it [two ways](https://stackoverflow.com/questions/36458697/is-it-possible-to-export-arrow-functions-in-es6-7)
@@ -11,11 +11,11 @@
 
 - [login to github in command-line using personal-access-token](https://stackoverflow.com/questions/66231282/how-to-add-github-personal-access-token-to-visual-studio-code)
 
-  `git remote set-url origin https://<username>:<personal-access-token>@github.com/<username>/<repository-name>.git`
+  git remote set-url origin https://<username>:<personal-access-token>@github.com/<username>/<repository-name>.git
 
 - [open a file in current vscode using terminal](https://stackoverflow.com/questions/41377489/how-to-open-a-file-from-the-integrated-terminal-in-visual-studio-code)
 
-  `code -r filename.js`
+  code -r filename.js
 
 - [Switch Terminals in vscode-terminal](https://stackoverflow.com/questions/48440673/how-to-switch-between-terminals-in-visual-studio-code/64250667)
 
@@ -27,6 +27,24 @@
   Move to next terminal
       Ctrl+PageDown (macOS Cmd+shift+[)
   ```
+
+- [vscode not recognizing react code as react javascript instead it format it as vanilla javascript](https://stackoverflow.com/questions/54462519/why-vscode-is-not-recognizing-react-code-as-react-javascript-instead-it-format-i)
+
+  I don't read anything about react in prettier documentation
+
+  As far as I understand, react code should be put in .jsx files, not .js
+
+  https://reactjs.org/docs/introducing-jsx.html
+
+  > React doesn’t require using JSX, but most people find it helpful as a visual aid when working with UI inside the JavaScript code
+
+  Also I did [this](https://www.reddit.com/r/vscode/comments/8h2vyt/auto_detect_language_mode_for_react_files/)
+
+        You can use the "files.associations" option to make it so that all JS files are JavaScript React.
+
+        "files.associations": {
+            "*.jsx": "javascriptreact"
+        }
 
 ### Timeline
 
