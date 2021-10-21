@@ -42,7 +42,7 @@
 
   Also I did [this](https://www.reddit.com/r/vscode/comments/8h2vyt/auto_detect_language_mode_for_react_files/)
 
-        You can use the "files.associations" option to make it so that all JS files are JavaScript React.
+  You can use the "files.associations" option to make it so that all JS files are JavaScript React.
 
         "files.associations": {
             "*.jsx": "javascriptreact"
