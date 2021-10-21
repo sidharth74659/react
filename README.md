@@ -11,7 +11,9 @@
 
 - [login to github in command-line using personal-access-token](https://stackoverflow.com/questions/66231282/how-to-add-github-personal-access-token-to-visual-studio-code)
 
+  ```
   git remote set-url origin https://<username>:<personal-access-token>@github.com/<username>/<repository-name>.git
+  ```
 
 - [open a file in current vscode using terminal](https://stackoverflow.com/questions/41377489/how-to-open-a-file-from-the-integrated-terminal-in-visual-studio-code)
 
@@ -48,17 +50,24 @@
 
 ### Timeline
 
-> intialised a app using [create-react-app](https://github.com/facebook/create-react-app#create-react-app--) and <br>nested into the app and <br>run server
+- [x] intialised a app using [create-react-app](https://github.com/facebook/create-react-app#create-react-app--) and <br>nested into the app and <br>run server
 
+    ```
     npx create-react-app <app-name>
     cd <app-name>
     npm start
+    ```
 
-> Removed Clutter
-
-> Made first component
+- [x] Removed Clutter
+- [x] Made first component
+- [x] Used Props 
+  - [x] passed props using static way (hard-coded)
+  - [x] passed props using dynamic way (probably from API using map)
+- [x] Used keys and understood it's <a href="https://reactjs.org/docs/lists-and-keys.html#keys" title="Keys help React identify which items have changed, are added, or are removed">importance</a>
 
 >
+
+
 
 # Getting Started with Create React App
 
