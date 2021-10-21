@@ -1,3 +1,47 @@
+### Helpful Links
+
+> I didn't mention index.js in any script tag in index.html. But how it is referencing the root div element in index.html <br>
+> [Answer One](https://stackoverflow.com/questions/42438171/wheres-the-connection-between-index-html-and-index-js-in-a-create-react-app-app)<br>
+> [Answer Two](https://stackoverflow.com/questions/41738421/how-react-js-index-js-file-contacting-index-html-for-id-references)
+
+> Can i use arrow-functions to export.<br>
+> The answer is Yes, and you can do it [two ways](https://stackoverflow.com/questions/36458697/is-it-possible-to-export-arrow-functions-in-es6-7)
+
+### Helpful scripts
+
+- [login to github in command-line using personal-access-token](https://stackoverflow.com/questions/66231282/how-to-add-github-personal-access-token-to-visual-studio-code)
+
+  `git remote set-url origin https://<username>:<personal-access-token>@github.com/<username>/<repository-name>.git`
+
+- [open a file in current vscode using terminal](https://stackoverflow.com/questions/41377489/how-to-open-a-file-from-the-integrated-terminal-in-visual-studio-code)
+
+  `code -r filename.js`
+
+- [Switch Terminals in vscode-terminal](https://stackoverflow.com/questions/48440673/how-to-switch-between-terminals-in-visual-studio-code/64250667)
+
+  ```
+  Toggle between terminal and editor focus
+      "ctrl+`
+  Move to previous terminal
+      Ctrl+PageUp (macOS Cmd+Shift+])
+  Move to next terminal
+      Ctrl+PageDown (macOS Cmd+shift+[)
+  ```
+
+### Timeline
+
+> intialised a app using [create-react-app](https://github.com/facebook/create-react-app#create-react-app--) and <br>nested into the app and <br>run server
+
+    npx create-react-app <app-name>
+    cd <app-name>
+    npm start
+
+> Removed Clutter
+
+> Made first component
+
+>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
