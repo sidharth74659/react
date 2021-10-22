@@ -9,6 +9,12 @@
 
 ### Helpful scripts
 
+- check react version - ```npm view react version```
+
+- update npm - ```npm install -g npm```
+
+- update to [React 18](https://javascript.works-hub.com/learn/react-18-is-here-whats-new-9b46a) - ```npm install react@alpha react-dom@alpha```
+
 - [login to github in command-line using personal-access-token](https://stackoverflow.com/questions/66231282/how-to-add-github-personal-access-token-to-visual-studio-code)
 
   ```
@@ -69,6 +75,7 @@
   - [x] run server  
          `npm start`
 
+- [x] Updated to React 18
 - [x] Removed Clutter
 - [x] Understood JSX
 - [x] Made first component
