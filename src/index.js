@@ -25,5 +25,6 @@ ReactDOM.render(
 const container = document.getElementById('root')
 const root = ReactDOM.createRoot(container)
 
+// root.render(<propType />)
 // root.render(<ConditionalRendering />)
 root.render(<State />)
