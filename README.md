@@ -14,6 +14,16 @@
   ```
   git remote set-url origin https://<username>:<personal-access-token>@github.com/<username>/<repository-name>.git
   ```
+  
+- [change git repository name locally](https://www.codepoc.io/blog/git/5617/change-git-repository-name-locally)
+
+  ```
+  cd projectFolder
+  git remote -v (it will show previous git url)
+  git remote set-url origin https://username@bitbucket.org/username/newName.git
+  git remote -v (double check, it will show new git url)
+  git push (do whatever you want.)
+  ```
 
 - [open a file in current vscode using terminal](https://stackoverflow.com/questions/41377489/how-to-open-a-file-from-the-integrated-terminal-in-visual-studio-code)
 
