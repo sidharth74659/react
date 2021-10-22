@@ -101,6 +101,10 @@
     completed: PropTypes.bool.isRequired
   }
   ```
+- [x] Conditional Rendering
+- [x] DOM Events
+- [X] State in React (using [counter](https://reactjs.org/docs/hooks-state.html) example)
+- [x] useState
 
 # Getting Started with Create React App
 
