@@ -1,3 +1,9 @@
+## Table of Contents:
+
+- [Helpful Links](#helpful-links)
+- [Helpful scripts](#helpful-scripts)
+- [Timeline](#timeline)
+
 ### Helpful Links
 
 > [Add react to a website](https://reactjs.org/docs/add-react-to-a-website.html)
@@ -9,18 +15,18 @@
 
 ### Helpful scripts
 
-- check react version - ```npm view react version```
+- check react version - `npm view react version`
 
-- update npm - ```npm install -g npm```
+- update npm - `npm install -g npm`
 
-- update to [React 18](https://javascript.works-hub.com/learn/react-18-is-here-whats-new-9b46a) - ```npm install react@alpha react-dom@alpha```
+- update to [React 18](https://javascript.works-hub.com/learn/react-18-is-here-whats-new-9b46a) - `npm install react@alpha react-dom@alpha`
 
 - [login to github in command-line using personal-access-token](https://stackoverflow.com/questions/66231282/how-to-add-github-personal-access-token-to-visual-studio-code)
 
   ```
   git remote set-url origin https://<username>:<personal-access-token>@github.com/<username>/<repository-name>.git
   ```
-  
+
 - [change git repository name locally](https://www.codepoc.io/blog/git/5617/change-git-repository-name-locally)
 
   ```
@@ -101,10 +107,17 @@
     completed: PropTypes.bool.isRequired
   }
   ```
+
 - [x] Conditional Rendering
 - [x] DOM Events
-- [X] State in React (using [counter](https://reactjs.org/docs/hooks-state.html) example)
+- [x] State in React (using [counter](https://reactjs.org/docs/hooks-state.html) example)
 - [x] useState
+  - [x] setState passing values/ expresstion
+  - [x] setState using functional approach (when the newValue is dependent on the oldValue)
+- [x] useEffect
+- [x] Todo App
+  - [x] used useState to "Add" a Todo, update Todo-List and input-value
+  - [x] added "Delete" and "Delete All"
 
 # Getting Started with Create React App
 

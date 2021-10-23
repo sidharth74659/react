@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import State from './State.jsx'
+import Todo from './Todo.jsx'
 /* 
 
 ? Before React-18
@@ -27,4 +27,5 @@ const root = ReactDOM.createRoot(container)
 
 // root.render(<propType />)
 // root.render(<ConditionalRendering />)
-root.render(<State />)
+// root.render(<Counter />)
+root.render(<Todo />)
